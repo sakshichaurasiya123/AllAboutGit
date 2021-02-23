@@ -35,3 +35,35 @@ clear
 //Command for recover Updated file
 git checkout filename.extension
 Example->git checkout 2.txt
+
+
+//Command for recover multiple files from previous commit in one way
+git checkout -f
+
+// command for Checking (showing) out all Commit
+git log
+
+//Command for Checking (showing) out specific commit
+git  log -p -1
+
+//Command for compare working directory with staging area
+git diff
+
+//Compare last commit with staging area
+git diff --staged
+
+//Skip staging area and directly commited
+git commit -a -m "Massage"
+Example-> git commit -a -m"Skip staging are and directly commit"
+
+//Command for list all files
+ls
+
+//Delete the specific file from working directory and staging area
+git rm filename.extension
+Example-> git rm 3.txt
+
+//Delete the specific file only from staging area.
+git rm --cached filename.extension
+Example-> git rm --cached 3.txt
+
