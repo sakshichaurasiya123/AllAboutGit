@@ -67,3 +67,7 @@ Example-> git rm 3.txt
 git rm --cached filename.extension
 Example-> git rm --cached 3.txt
 
+//if we want to ignore some extension file then we can create one file name gitignore and place all file name inside this file whichever we want to ignore and write the below given command
+git rm --cached "Filename"
+Example->git rm --cached log/start.log 
+
