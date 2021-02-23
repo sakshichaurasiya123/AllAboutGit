@@ -1,0 +1,14 @@
+// Command for creating branch
+git branch branchname
+Example-> git branch feature1
+
+// Command for switch branch
+git checkout branchname(in which you want to switch)
+Example git checkout feature1
+
+// command for check branches
+git branch
+
+// command for create branch and switch me on this branch
+git checkout -b newbranchname
+Example git checkout -b muskan
