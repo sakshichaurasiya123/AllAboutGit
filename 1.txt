@@ -1,0 +1,9 @@
+when we install git in our PC then firstly we have to configure 
+username and email through gitbash by using below command
+git config --global user.name Sakshi
+git config --global user.email sakshichaurasiya02@gmail.com
+
+//Command for executing username and email
+git config --global user.name
+git config --global user.email
+
