@@ -23,6 +23,15 @@ then firstly we have to push 'i' key on keyboard thnen write "initial commit" th
 // Command for creating blanck file
 touch filename.extension
 example> touch index.html
-////
 
 
+//Another way to commit files 
+git commit -m "Message"
+Example-> git commit -m "Added multiple files"
+
+//Command for clear terminal
+clear
+
+//Command for recover Updated file
+git checkout filename.extension
+Example->git checkout 2.txt
