@@ -1,0 +1,28 @@
+# Command Inititalization of git
+git init
+
+# Command for checking hidden folder
+ls -lart
+
+// Command for adding untracked file in staging area
+git add filename.extension
+example -> git add 1.txt
+
+//Command for adding multiple file on git
+git add -A
+
+//Command for checking git status
+git status
+
+// Command for commit
+git commit
+
+//While we hit enter after git commit then one webeditor will open and we cannot write on editor
+then firstly we have to push 'i' key on keyboard thnen write "initial commit" then push "Esc:wq" and press enter so this window will cloase and we will redirect in our previous window
+
+// Command for creating blanck file
+touch filename.extension
+example> touch index.html
+////
+
+
